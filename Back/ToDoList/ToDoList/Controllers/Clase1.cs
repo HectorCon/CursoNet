@@ -9,7 +9,7 @@ namespace ToDoList.Controllers
         #region  * tipo de datos*
         // GET: Clase1
         [HttpGet]
-        public String Index()
+        public int Index()
         {
             string strVar;
             int intVar;
@@ -30,6 +30,14 @@ namespace ToDoList.Controllers
             charVar = 'v';
 
 
+            return intVar;
+        }
+
+        [HttpGet("string")]
+        public string returnString()
+        {
+            string strVar;
+            strVar = "{cadena: 'cadena de caracteres'}";
             return strVar;
         }
 
