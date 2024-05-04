@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\hector.contreras\\Documents\\GitHub\\CursoNet\\Back\\ToDoList\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3043480-9907-447C-B3C0-EEE751756EF3}|ToDoList\\ToDoList.csproj|c:\\users\\hector.contreras\\documents\\github\\cursonet\\back\\todolist\\todolist\\controllers\\clase1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3043480-9907-447C-B3C0-EEE751756EF3}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\controllers\\clase1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Clase1.cs",
+              "DocumentMoniker": "C:\\Users\\hector.contreras\\Documents\\GitHub\\CursoNet\\Back\\ToDoList\\ToDoList\\Controllers\\Clase1.cs",
+              "RelativeDocumentMoniker": "ToDoList\\Controllers\\Clase1.cs",
+              "ToolTip": "C:\\Users\\hector.contreras\\Documents\\GitHub\\CursoNet\\Back\\ToDoList\\ToDoList\\Controllers\\Clase1.cs",
+              "RelativeToolTip": "ToDoList\\Controllers\\Clase1.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwCAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T18:13:01.646Z",
+              "EditorCaption": ""
             }
           ]
         }
