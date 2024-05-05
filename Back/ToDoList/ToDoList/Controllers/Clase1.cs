@@ -6,7 +6,7 @@ namespace ToDoList.Controllers
     [Route("[controller]")]
     public class Clase1 : Controller
     {
-        #region  * tipo de datos*
+        #region  " tipo de datos"
         // GET: Clase1
         [HttpGet]
         public int Index()
@@ -41,10 +41,59 @@ namespace ToDoList.Controllers
             return strVar;
         }
 
+        [HttpGet("bool")]
+        public bool returnBool()
+        {
+            bool blnVar;
+            blnVar = true;
+            return blnVar;
+        }
+
+        [HttpGet("long")]
+        public long returnLong()
+        {
+            long longVar;
+            longVar = 0;
+            return longVar;
+        }
+
+        [HttpGet("float")]
+        public float returnFloat()
+        {
+            float floatVar;
+            floatVar = 0;
+            return floatVar;
+        }
+
+        [HttpGet("double")]
+        public double returnDouble()
+        {
+            double doubleVar;
+            doubleVar = 0.1;
+            return doubleVar;
+        }
+
+        [HttpGet("decimal")]
+        public decimal returnDecimal()
+        {
+            decimal decimalVar;
+            decimalVar = 0;
+            return decimalVar;
+        }
+
+
+        [HttpGet("char")]
+        public char returnChar()
+        {
+            char charVar;
+            charVar = 'a';
+            return charVar;
+        }
+
         #endregion
 
 
-        #region *Despues*
+        #region "Despues"
         // GET: Clase1/Details/5
         public ActionResult Details(int id)
         {
